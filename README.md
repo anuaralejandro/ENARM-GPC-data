@@ -2,7 +2,47 @@
 
 Sistema de clasificación automática de Guías de Práctica Clínica (GPCs) del ENARM usando embeddings semánticos y aceleración GPU.
 
-## � Acceso Rápido
+## 📑 Índice
+
+- [📋 Acceso Rápido](#-acceso-rápido)
+- [⚠️ Declaración y Contexto del Proyecto](#️-declaración-y-contexto-del-proyecto)
+  - [Contexto Crítico](#contexto-crítico)
+  - [El Problema Real](#el-problema-real)
+- [📊 Resumen del Proyecto](#-resumen-del-proyecto)
+  - [Características Principales](#características-principales)
+- [🚀 Resultados](#-resultados)
+  - [Distribución por Especialidad](#distribución-por-especialidad)
+  - [Métricas de Confianza](#métricas-de-confianza)
+- [🛠️ Instalación](#️-instalación)
+  - [Requisitos](#requisitos)
+  - [Setup Rápido](#setup-rápido)
+- [📖 Uso](#-uso)
+  - [Clasificación Rápida](#clasificación-rápida)
+  - [Análisis de Calidad](#análisis-de-calidad)
+  - [Corrección Automática](#corrección-automática)
+- [📂 Estructura del Repositorio](#-estructura-del-repositorio)
+- [🧪 Metodología](#-metodología)
+  - [Modelo de Clasificación](#modelo-de-clasificación)
+  - [Taxonomía de Especialidades](#taxonomía-de-especialidades)
+- [📊 Archivos Clave](#-archivos-clave)
+- [🔍 Ejemplos de Clasificación](#-ejemplos-de-clasificación)
+- [🐛 Sistema de Corrección](#-sistema-de-corrección)
+- [📈 Rendimiento](#-rendimiento)
+- [🔬 Validación](#-validación)
+- [📋 GPCs Faltantes](#-gpcs-faltantes)
+- [🤝 Colaboración y Comunidad Médica](#-colaboración-y-comunidad-médica)
+  - [¿Por Qué Colaborar?](#por-qué-colaborar)
+  - [Cómo Puedes Contribuir](#-cómo-puedes-contribuir)
+  - [Canales de Comunicación](#-canales-de-comunicación)
+  - [Visión del Proyecto](#-visión-del-proyecto)
+- [📝 Licencia](#-licencia)
+- [📖 Cómo Citar](#-cómo-citar)
+- [🙏 Agradecimientos](#-agradecimientos)
+- [📧 Contacto](#-contacto)
+
+---
+
+## 📋 Acceso Rápido
 
 <div align="center">
 
