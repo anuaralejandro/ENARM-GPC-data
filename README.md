@@ -2,7 +2,19 @@
 
 Sistema de clasificación automática de Guías de Práctica Clínica (GPCs) del ENARM usando embeddings semánticos y aceleración GPU.
 
-## 📊 Resumen del Proyecto
+## � Acceso Rápido
+
+<div align="center">
+
+### 🔗 [**LINKS DE LAS GPCS CLASIFICADAS**](docs/gpc_links_god_mode_classified.md)
+
+**373 GPCs organizadas por especialidad • 1,952 líneas • Confianza validada**
+
+</div>
+
+---
+
+## �📊 Resumen del Proyecto
 
 Este repositorio contiene un sistema completo de búsqueda, validación y clasificación de Guías de Práctica Clínica (GPCs) mexicanas, con enfoque en el examen ENARM. El proyecto utiliza modelos de lenguaje multilingües y aceleración GPU para clasificar 373 GPCs en 15 especialidades médicas.
 
@@ -258,7 +270,37 @@ Proyecto académico - Uso educativo y de investigación.
 
 Datos de GPCs pertenecen a CENETEC/IMSS/Secretaría de Salud México.
 
-## 🙏 Agradecimientos
+## � Cómo Citar
+
+Si utilizas este trabajo en tu investigación o proyecto, por favor cita:
+
+```bibtex
+@misc{viramontes2025enarmgpc,
+  author = {Viramontes Flores, Anuar Alejandro},
+  title = {ENARM-GPC-data: Sistema de Clasificación Automática de Guías de Práctica Clínica},
+  year = {2025},
+  month = {octubre},
+  publisher = {GitHub},
+  howpublished = {\url{https://github.com/anuaralejandro/ENARM-GPC-data}},
+  note = {373 GPCs clasificadas en 15 especialidades médicas usando embeddings semánticos y GPU}
+}
+```
+
+**Formato APA:**
+```
+Viramontes Flores, A. A. (2025). ENARM-GPC-data: Sistema de Clasificación Automática 
+de Guías de Práctica Clínica [Software]. GitHub. 
+https://github.com/anuaralejandro/ENARM-GPC-data
+```
+
+**Formato texto:**
+```
+Viramontes Flores, Anuar Alejandro. (2025). "ENARM-GPC-data: Sistema de Clasificación 
+Automática de Guías de Práctica Clínica". Octubre 2025. 
+Disponible en: https://github.com/anuaralejandro/ENARM-GPC-data
+```
+
+## �🙏 Agradecimientos
 
 - **CENETEC**: Catálogo oficial de GPCs
 - **Hugging Face**: sentence-transformers library
@@ -267,8 +309,8 @@ Datos de GPCs pertenecen a CENETEC/IMSS/Secretaría de Salud México.
 
 ## 📧 Contacto
 
-**Autor**: Anuar Alejandro  
-**Usuario**: anuaralejandro  
+**Autor**: Anuar Alejandro Viramontes Flores  
+**GitHub**: [@anuaralejandro](https://github.com/anuaralejandro)  
 **Proyecto**: ENARM-GPC-data  
 **Fecha**: Octubre 2025
 
