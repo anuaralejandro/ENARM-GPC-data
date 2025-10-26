@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# PyTorch / ML Models
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+models/
+checkpoints/
+.cache/
+sentence-transformers/
+transformers/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+*.out
+
+# Environment variables
+.env
+.env.local
+config.env
+
+# Test outputs
+test_output.txt
+temp_*
+*.tmp
+
+# Backups
+*_backup_*.json
+*_backup_*.md
+*.bak
+
+# OS specific
+Thumbs.db
+desktop.ini
