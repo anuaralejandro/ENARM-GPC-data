@@ -14,6 +14,28 @@ Sistema de clasificación automática de Guías de Práctica Clínica (GPCs) del
 
 ---
 
+## ⚠️ Declaración y Contexto del Proyecto
+
+Este proyecto surge como **protesta ante la incompetencia de CENETEC y su falta de actualización en recursos de automatización para la práctica médica y el ejercicio de la medicina estandarizada**.
+
+### Contexto Crítico
+
+- � **5+ meses sin actualización** del catálogo oficial de GPCs
+- 🏛️ CENETEC es un **organismo federal** con presupuesto y recursos
+- 👨‍⚕️ Este sistema fue desarrollado por un **médico interno de pregrado**
+- 💻 Sin formación formal en programación, IA o ciencias de la computación
+- ⏱️ **9 días** fueron suficientes para clasificar 373 GPCs con GPU
+
+### El Problema
+
+Si un estudiante de medicina sin conocimientos previos de programación puede crear en 9 días un sistema automatizado que clasifica cientos de GPCs usando tecnología de código abierto, **¿por qué un organismo federal especializado no puede mantener actualizado un catálogo básico?**
+
+Esta es una demostración de que las herramientas existen, son accesibles y funcionan. La falta de recursos actualizados no es un problema técnico, es un problema de voluntad institucional.
+
+**No le debo agradecimientos a CENETEC** - Han demostrado ser incompetentes en su función básica de mantener información médica actualizada y accesible.
+
+---
+
 ## �📊 Resumen del Proyecto
 
 Este repositorio contiene un sistema completo de búsqueda, validación y clasificación de Guías de Práctica Clínica (GPCs) mexicanas, con enfoque en el examen ENARM. El proyecto utiliza modelos de lenguaje multilingües y aceleración GPU para clasificar 373 GPCs en 15 especialidades médicas.
@@ -300,12 +322,16 @@ Automática de Guías de Práctica Clínica". Octubre 2025.
 Disponible en: https://github.com/anuaralejandro/ENARM-GPC-data
 ```
 
-## �🙏 Agradecimientos
+##  Agradecimientos
 
-- **CENETEC**: Catálogo oficial de GPCs
-- **Hugging Face**: sentence-transformers library
-- **PyTorch**: Framework de deep learning
-- **NVIDIA**: Soporte CUDA para aceleración GPU
+**NO a CENETEC** - Este proyecto existe precisamente por su incompetencia y falta de actualización.
+
+### Agradecimientos Reales
+
+- **Hugging Face**: sentence-transformers library (código abierto accesible)
+- **PyTorch**: Framework de deep learning (herramientas que SÍ funcionan)
+- **NVIDIA**: Soporte CUDA para aceleración GPU (tecnología disponible para todos)
+- **Comunidad Open Source**: Por hacer accesible la tecnología que organismos federales no saben aprovechar
 
 ## 📧 Contacto
 
