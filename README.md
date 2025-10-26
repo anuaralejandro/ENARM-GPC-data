@@ -1,4 +1,4 @@
-# ENARM-GPC-data 🏥
+﻿# ENARM-GPC-data 🏥
 
 Sistema de clasificación automática de Guías de Práctica Clínica (GPCs) del ENARM usando embeddings semánticos y aceleración GPU.
 
@@ -20,19 +20,28 @@ Este proyecto surge como **protesta ante la incompetencia de CENETEC y su falta 
 
 ### Contexto Crítico
 
-- � **5+ meses sin actualización** del catálogo oficial de GPCs
-- 🏛️ CENETEC es un **organismo federal** con presupuesto y recursos
-- 👨‍⚕️ Este sistema fue desarrollado por un **médico interno de pregrado**
-- 💻 Sin formación formal en programación, IA o ciencias de la computación
-- ⏱️ **9 días** fueron suficientes para clasificar 373 GPCs con GPU
+-  **CENETEC ELIMINÓ EL CATÁLOGO MAESTRO DE GPCs** y no han hecho nada por restaurarlo o actualizarlo
+-  **5+ meses sin catálogo oficial actualizado** - Información médica crítica inaccesible
+-  CENETEC es un **organismo federal** con presupuesto y recursos ilimitados
+-  Este sistema fue desarrollado por un **médico interno de pregrado**
+-  Sin formación formal en programación, IA o ciencias de la computación
+-  **9 días** fueron suficientes para recuperar y clasificar 373 GPCs con GPU
 
-### El Problema
+### El Problema Real
 
-Si un estudiante de medicina sin conocimientos previos de programación puede crear en 9 días un sistema automatizado que clasifica cientos de GPCs usando tecnología de código abierto, **¿por qué un organismo federal especializado no puede mantener actualizado un catálogo básico?**
+**CENETEC quitó el catálogo maestro** - el recurso central que médicos, residentes y estudiantes usaban para acceder a guías de práctica clínica estandarizadas. Simplemente lo eliminaron sin aviso, sin alternativa, sin explicación.
 
-Esta es una demostración de que las herramientas existen, son accesibles y funcionan. La falta de recursos actualizados no es un problema técnico, es un problema de voluntad institucional.
+Si un estudiante de medicina sin conocimientos previos de programación puede:
+- Recuperar 373 GPCs de fuentes dispersas
+- Clasificarlas automáticamente por especialidad
+- Crear un sistema de búsqueda funcional
+- Todo en **9 días** con tecnología gratuita de código abierto
 
-**No le debo agradecimientos a CENETEC** - Han demostrado ser incompetentes en su función básica de mantener información médica actualizada y accesible.
+**¿Por qué un organismo federal especializado con presupuesto ilimitado no puede mantener un simple catálogo actualizado?**
+
+Esta es una demostración de que las herramientas existen, son accesibles y funcionan. La falta de recursos actualizados **no es un problema técnico, es abandono institucional deliberado**.
+
+**No le debo agradecimientos a CENETEC** - Han demostrado ser incompetentes en su función básica: mantener información médica crítica actualizada y accesible para quienes ejercen medicina en México.
 
 ---
 
@@ -278,13 +287,99 @@ Ver análisis completo en: `docs/GPCS_FALTANTES.md`
 
 Checklist interactivo: `docs/GPCS_FALTANTES_CHECKLIST.md`
 
-## 🤝 Contribuciones
+## 🤝 Colaboración y Comunidad Médica
 
-Este es un proyecto de investigación personal. Para sugerencias:
+**Este es un proyecto de colaboración entre médicos, por médicos y para médicos.** Los organismos institucionales nos dejan cada vez más desprotegidos ante la desactualización y precariedad de un catálogo de GPCs ya de por sí desactualizadas.
 
-1. Revisar documentación en `docs/`
-2. Probar clasificador con tus propias GPCs
-3. Reportar inconsistencias o errores de clasificación
+### ¿Por Qué Colaborar?
+
+La unión y fraternidad entre médicos es nuestra mejor respuesta ante instituciones que abandonan sus responsabilidades. Si CENETEC no mantiene actualizado el catálogo, **nosotros lo haremos**.
+
+### 🔧 Cómo Puedes Contribuir
+
+#### 1. **Reportar GPCs Desactualizadas o con Links Rotos**
+
+¿Encontraste un link que ya no funciona? ¿Una GPC con información desactualizada?
+
+**Abre un Issue en GitHub:**
+- Ve a: https://github.com/anuaralejandro/ENARM-GPC-data/issues
+- Clic en "New Issue"
+- Título: `[GPC Desactualizada] Nombre de la GPC`
+- Descripción:
+  ```
+  GPC: [Nombre completo]
+  Especialidad: [Ej. Cardiología]
+  Problema: [Link roto / Información desactualizada / Otro]
+  Link actual: [URL que no funciona]
+  Link nuevo (si lo encontraste): [URL actualizada]
+  Comentarios adicionales: [Lo que consideres importante]
+  ```
+
+#### 2. **Agregar GPCs Faltantes**
+
+Si conoces GPCs que no están en el catálogo (ver `docs/GPCS_FALTANTES.md`):
+
+**Comparte la información:**
+- Abre un Issue con título: `[GPC Nueva] Nombre de la GPC`
+- Incluye:
+  - Título completo
+  - Especialidad
+  - Link GER (Guía de Evidencias y Recomendaciones)
+  - Link GRR (Guía de Referencia Rápida)
+  - Fuente (CENETEC/IMSS/otra)
+
+#### 3. **Mejorar Clasificaciones**
+
+¿Crees que una GPC está mal clasificada?
+
+**Propón correcciones:**
+- Issue con título: `[Reclasificación] Nombre de la GPC`
+- Especialidad actual vs. Especialidad propuesta
+- Justificación médica
+
+#### 4. **Validación por Especialidad**
+
+Si eres residente o especialista:
+
+**Valida GPCs de tu especialidad:**
+- Revisa las GPCs en `docs/gpc_links_god_mode_classified.md`
+- Confirma que links funcionan
+- Verifica que clasificación sea correcta
+- Reporta discrepancias
+
+#### 5. **Difusión**
+
+**Ayuda a otros médicos:**
+- Comparte este repositorio con compañeros
+- Menciona en grupos de WhatsApp/Telegram de estudio
+- Referencia en foros médicos (MedECC, Foros ENARM, etc.)
+
+### 💬 Canales de Comunicación
+
+- **Issues GitHub**: Para reportes técnicos y actualizaciones
+- **Discussions GitHub**: Para dudas generales y propuestas
+- **Pull Requests**: Para contribuciones de código (si sabes programar)
+
+### 🎯 Visión del Proyecto
+
+**Queremos crear el catálogo de GPCs más actualizado y accesible de México**, mantenido por la comunidad médica, no dependiente de instituciones que han demostrado no estar a la altura de sus responsabilidades.
+
+### ⚖️ Código de Conducta
+
+- Respeto entre colegas médicos
+- Información verificada (no especulación)
+- Colaboración constructiva
+- Enfoque en mejorar el recurso para todos
+
+### 📊 Impacto de tu Colaboración
+
+Cada GPC que reportes, cada link que actualices, cada clasificación que corrijas:
+- Ayuda a miles de estudiantes de medicina
+- Apoya a médicos internos y residentes
+- Mejora la práctica médica estandarizada en México
+- Demuestra que la comunidad médica puede auto-organizarse
+
+**Juntos somos más fuertes que cualquier institución incompetente.**
 
 ## 📝 Licencia
 
